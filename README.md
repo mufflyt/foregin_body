@@ -5,6 +5,19 @@ To estimate nationwide incidence of emergency department (ED) visits for pelvic 
 ## Materials and Methods
 There is an R package to access data from the National Electronic Injury Surveillance System (NEISS) (http://www.cpsc.gov/en/Research–Statistics/NEISS‐Injury‐Data/).  The National Electronic Injury Surveillance System (NEISS) was accessed from the Consumer Product Safety Commission's Web site and used for the collection of data. This resource has proven invaluable in myriad prior analyses evaluating nationwide trends occurring in emergency medicine.4-7 Briefly, this database collects data from 100 participating hospital EDs, which is used to derive a stratified probability sample of visits to the approximately 5,000 EDs nationwide that have at least six beds and are open 24 hours a day, 7 days a week.8-10 From these figures, the NEISS creates annual estimates of each type of injury.9 This resource allows one to search for injuries organized by several general diagnoses, specific consumer products, and patient demographics. Additionally, a one‐ to two‐phrase narrative that describes other aspects of the patient visit is included for many cases.
 
+```r
+NEISS Query Results
+
+National Estimate of Injuries Treated in Emergency Departments
+Treatment Dates: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019
+
+National Estimate
+66,485,379
+Suggested Citation: Consumer Product Safety Commission. National Electronic Injury Surveillance System 2000-2019 on NEISS Online Database, released April, 2020. Generated at https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx. on: August 16, 2020 at 0:00:46
+
+User Selected On: Most Recent 10 Years (2010 - 2019); Gender: Female (2);
+```
+
 We searched this database for retained foreign body and evaluated results specifically relating to the female pelvis. We were able to search for injuries with the anatomic designations including “bladder,” “vagina,” and “rectum,”. ” We excluded pregnant patients in this analysis. This database provided annual sample sizes as well as derived national estimates for retained foreign objects throughout the body. The annual sample size of injuries organized by anatomic site was divided by the annual sample size of retained foreign body for all sites, and this proportion was multiplied by the nationwide estimate to come up with specific values for injury incidence organized by anatomic site. For example, the NEISS reported ?? retained foreign body‐related ED visits (regardless of anatomic location) in 2012—and provided a derived estimate of 15,058 nationwide ED visits from this number. Because 29 of these 470 visits (6.2%) were related to injuries of the face, we multiplied 15,058 by 6.2% to come up with a figure of 929 battery‐instigated facial injuries for 2012. In addition to annual estimates, we also analyzed data by patient demographics (including age and gender), injury diagnosis, and patient disposition. We examined data from the most recent available 10‐year block (2003–2012). Data collection was completed in December 2013.
 
 Statistical Analysis
