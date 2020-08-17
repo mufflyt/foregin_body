@@ -2,10 +2,10 @@
 To estimate nationwide incidence of emergency department (ED) visits for pelvic foreign body occurring in the bladder, vagina and rectum, and analyze demographic and anatomic‐specific trends.
 
 NEISS:
-https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
-https://www.cpsc.gov/cgibin/NEISSQuery/WebEstimates.html
-https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
-https://lenagroeger.s3.amazonaws.com/talks/orlando/exercises/ExcelMath/math.html
+* https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
+* https://www.cpsc.gov/cgibin/NEISSQuery/WebEstimates.html
+* https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
+* https://lenagroeger.s3.amazonaws.com/talks/orlando/exercises/ExcelMath/math.html
 
 ## Materials and Methods
 There is an R package to access data from the National Electronic Injury Surveillance System (NEISS) (http://www.cpsc.gov/en/Research–Statistics/NEISS‐Injury‐Data/).  The National Electronic Injury Surveillance System (NEISS) was accessed from the Consumer Product Safety Commission's Web site and used for the collection of data. This resource has proven invaluable in myriad prior analyses evaluating nationwide trends occurring in emergency medicine.4-7 Briefly, this database collects data from 100 participating hospital EDs, which is used to derive a stratified probability sample of visits to the approximately 5,000 EDs nationwide that have at least six beds and are open 24 hours a day, 7 days a week.8-10 From these figures, the NEISS creates annual estimates of each type of injury.9 This resource allows one to search for injuries organized by several general diagnoses, specific consumer products, and patient demographics. Additionally, a one‐ to two‐phrase narrative that describes other aspects of the patient visit is included for many cases.
