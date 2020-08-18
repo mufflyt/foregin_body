@@ -3,7 +3,9 @@
 To estimate nationwide incidence of emergency department (ED) visits for pelvic foreign body occurring in the bladder, vagina and rectum, and analyze demographic and anatomic‐specific trends.
 
 # Video explaining the data
-https://youtu.be/C8xHu2xgC9o
+* https://youtu.be/C8xHu2xgC9o
+* I think that I could do the materials and methods plus results if you guys do the intro and discussion.  To discuss.  
+
 
 NEISS:
 * https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
@@ -73,5 +75,26 @@ write.csv(injuries1, "~/Dropbox/injuries_NEISS.csv")
 
 ## Results
 Over the 10‐year period from 2010 to 2020, there were an estimated 540,860 ED visits for retained foreign body, and 27,580 (2,758 * 10) (5.1%) ED visits were related to female pelvic injuries as estimated using our sample size of 436 patients. Of the 436 visits for foreign body in the female pelvis that were analyzed, 570 (92.8%) visits involved patients who were discharged after ED treatment or examination. Twenty‐nine (4.7%) patients were admitted to the hospital; 1.0% were transferred to another facility; 1.0% left the ED against medical advice; and 0.4% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of injuries by anatomic site, a plurality of visits (34.2%) was due to injuries to the nose. The face (excluding nose) and ears were the next most common sites of injury (Fig. 3). Patients with nose‐related injuries were younger (median: 3 years of age; interquartile range: 3–4 years) than individuals presenting for injuries in other anatomic sites (P < 0.0001) (Fig. 3). The vast majority of primary diagnoses in the nose and ear were “foreign bodies” (97.1% and 93.0%, respectively)— significantly higher proportions than the incidence of foreign bodies in the other anatomic sites assessed in our analysis (P values both <0.0005) (Fig. 3). Diagnoses differed by anatomic site; for example, two‐thirds of mouth injuries were related to burns, whereas the most common injuries in the face (excluding the nose) and head were lacerations (Fig. 3). Among patients sustaining head lacerations, assault (patients either directly struck by battery or had battery thrown at them) and having a battery fall on their head were the most frequent mechanisms of injury (48.5% and 22.9%, respectively). Among facial lacerations, assault and being struck by falling batteries were also the most common mechanisms of injury (21.2% and 19.2%, respectively).
+
+
+Other ideas:
+
+Sports injuries to the pubic region:
+
+NEISS_55917.zip
+```r
+NEISS Query Results
+
+National Estimate of Injuries Treated in Emergency Departments
+Treatment Dates: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019
+
+National Estimate
+73,978
+Suggested Citation: Consumer Product Safety Commission. National Electronic Injury Surveillance System 2000-2019 on NEISS Online Database, released April, 2020. Generated at https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx. on: August 18, 2020 at 14:48:49
+ 
+Prior to 2019, each NEISS record allowed a maximum of one diagnosis, one body part, and two product codes. In 2019 the NEISS began collecting up to two diagnoses and body parts, and three product codes per record. As a result, a NEISS record may be counted multiple times in producing national injury estimates and calculating variability of those estimates. A single record may be counted in up to three product groups, product sub-groups, or individual product codes. Likewise, an individual NEISS record may be counted in up to two different diagnosis/body part combinations.
+
+User Selected On: Most Recent 10 Years (2010 - 2019); Product Selection: SPORTS AND RECREATION EQUIPMENT: AMUSEMENT ATTRACTIONS (INCL. RIDES), ARCHERY, ATV'S, MOPEDS, MINIBIKES, ETC., BARBECUE GRILLS, STOVES, EQUIPMENT, BASEBALL/SOFTBALL, BASKETBALL, BEACH, PICNIC, CAMPING EQUIPMENT, BICYCLES & ACCESSORIES, BILLIARDS OR POOL, BOWLING, BOXING, CURLING (ACTIVITY, ETC.), DARTS, EXERCISE & EQUIPMENT, FENCING, FISHING, FOOTBALL, GOLF, HOCKEY, ALL KINDS, HORSEBACK RIDING ACTIVITY, EQUIP, HORSESHOES, ICE OR SNOW BOATING, LACROSSE, RUGBY, MISC. BALL GAMES, MARTIAL ARTS, MISCELLANEOUS SPORTS, MOUNTAIN CLIMBING, NONPOWDER GUNS, BBS & PELLETS, PLAYGROUND EQUIPMENT, RACQUET SPORTS, SHUFFLEBOARD, SKATEBOARDS, SKATING, ALL KINDS, SNOWMOBILES, SNOWSKIING, SOCCER, SWIMMING ACTIVITY, POOLS, EQUIPMENT, TOBOGGANS, SLEDS, SNOW DISCS, ETC., TRACK & FIELD ACTIVITIES, EQUIPMENT, TRAMPOLINES, UNICYCLES, VOLLEYBALL, WAGONS, OTHER RIDEON TOYS, WATER SKIING, TUBING, SURFING; Gender: Female (2); Body Part Selection: Pubic Region (38);
+```
 
 
