@@ -1,6 +1,9 @@
 # foreign_body
 To estimate nationwide incidence of emergency department (ED) visits for pelvic foreign body occurring in the bladder, vagina and rectum, and analyze demographic and anatomic‐specific trends.
 
+# Video explaining the data
+https://youtu.be/C8xHu2xgC9o
+
 NEISS:
 * https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
 * https://www.cpsc.gov/cgibin/NEISSQuery/WebEstimates.html
