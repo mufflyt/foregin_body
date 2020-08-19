@@ -79,8 +79,8 @@ Over the 10‐year period from 2010 to 2020, there were an estimated 540,860 ED 
 
 Other ideas:
 
-Sports injuries to the pubic region:
-
+# Sports injuries to the pubic region:
+This is mostly pediatric injuries.  
 NEISS_55917.zip
 ```r
 NEISS Query Results
@@ -97,4 +97,41 @@ Prior to 2019, each NEISS record allowed a maximum of one diagnosis, one body pa
 User Selected On: Most Recent 10 Years (2010 - 2019); Product Selection: SPORTS AND RECREATION EQUIPMENT: AMUSEMENT ATTRACTIONS (INCL. RIDES), ARCHERY, ATV'S, MOPEDS, MINIBIKES, ETC., BARBECUE GRILLS, STOVES, EQUIPMENT, BASEBALL/SOFTBALL, BASKETBALL, BEACH, PICNIC, CAMPING EQUIPMENT, BICYCLES & ACCESSORIES, BILLIARDS OR POOL, BOWLING, BOXING, CURLING (ACTIVITY, ETC.), DARTS, EXERCISE & EQUIPMENT, FENCING, FISHING, FOOTBALL, GOLF, HOCKEY, ALL KINDS, HORSEBACK RIDING ACTIVITY, EQUIP, HORSESHOES, ICE OR SNOW BOATING, LACROSSE, RUGBY, MISC. BALL GAMES, MARTIAL ARTS, MISCELLANEOUS SPORTS, MOUNTAIN CLIMBING, NONPOWDER GUNS, BBS & PELLETS, PLAYGROUND EQUIPMENT, RACQUET SPORTS, SHUFFLEBOARD, SKATEBOARDS, SKATING, ALL KINDS, SNOWMOBILES, SNOWSKIING, SOCCER, SWIMMING ACTIVITY, POOLS, EQUIPMENT, TOBOGGANS, SLEDS, SNOW DISCS, ETC., TRACK & FIELD ACTIVITIES, EQUIPMENT, TRAMPOLINES, UNICYCLES, VOLLEYBALL, WAGONS, OTHER RIDEON TOYS, WATER SKIING, TUBING, SURFING; Gender: Female (2); Body Part Selection: Pubic Region (38);
 ```
 
+# Power tools/Home workshop equipment
+NEISS_55920.zip
+N = 50 or so
+```r
+NEISS Query Results
+
+National Estimate of Injuries Treated in Emergency Departments
+Treatment Dates: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019
+
+National Estimate
+1,515
+Suggested Citation: Consumer Product Safety Commission. National Electronic Injury Surveillance System 2000-2019 on NEISS Online Database, released April, 2020. Generated at https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx. on: August 18, 2020 at 15:39:51
+ 
+Prior to 2019, each NEISS record allowed a maximum of one diagnosis, one body part, and two product codes. In 2019 the NEISS began collecting up to two diagnoses and body parts, and three product codes per record. As a result, a NEISS record may be counted multiple times in producing national injury estimates and calculating variability of those estimates. A single record may be counted in up to three product groups, product sub-groups, or individual product codes. Likewise, an individual NEISS record may be counted in up to two different diagnosis/body part combinations.
+
+User Selected On: Most Recent 10 Years (2010 - 2019); Product Selection: HOME WORKSHOP EQUIPMENT: AUTO TOOLS, ACCESS., CHEM'LS, BATTERIES, ALL TYPES, BATTERY CHARGERS, CHAINS, ENGINES, NONAUTOMOTIVE, HOISTS, LIFTS, JACKS, ETC., MISCELLANEOUS WORKSHOP EQUIP, POWER HOME TOOLS, EXC. SAWS, POWER HOME WORKSHOP SAWS, ALL, WELDING, SOLDERING, CUTTING TOOLS, WIRES, CORDS, NOT SPECIFIED, WORKSHOP CHEMICALS, WORKSHOP MANUAL TOOLS; Gender: Female (2); Body Part Selection: Pubic Region (38);
+```
+
+# Personal Use Items
+
+NEISS_55931.zip
+```r
+NEISS Query Results
+ 
+Personal Use Items
+
+National Estimate of Injuries Treated in Emergency Departments
+Treatment Dates: 2019
+
+National Estimate
+6,611
+Suggested Citation: Consumer Product Safety Commission. National Electronic Injury Surveillance System 2000-2019 on NEISS Online Database, released April, 2020. Generated at https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx. on: August 18, 2020 at 22:12:57
+ 
+Prior to 2019, each NEISS record allowed a maximum of one diagnosis, one body part, and two product codes. In 2019 the NEISS began collecting up to two diagnoses and body parts, and three product codes per record. As a result, a NEISS record may be counted multiple times in producing national injury estimates and calculating variability of those estimates. A single record may be counted in up to three product groups, product sub-groups, or individual product codes. Likewise, an individual NEISS record may be counted in up to two different diagnosis/body part combinations.
+
+User Selected On: Year 2019; Product Selection: PERSONAL USE ITEMS: CIGARETTES, ETC., LIGHTERS, FUEL, CLOTHING, ALL, DRUG POISONINGS TO CHILDREN UNDER 5, GROOMING DEVICES, HOLDERS FOR PERSONAL ITEMS, INFRARED LAMPS, SAUNAS, MASSAGE DEVICES, MISC. PERSONAL USE ITEMS, PROTECTION DEVICES, RAZORS, SHAVERS, RAZOR BLADES; Gender: Female (2); Body Part Selection: Pubic Region (38);
+```
 Search SEER database for Bartholin's gland cancer.  
