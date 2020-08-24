@@ -7,7 +7,7 @@ To estimate nationwide incidence of emergency department (ED) visits for pelvic 
 * I think that I could do the materials and methods plus results if you guys do the intro and discussion.  To discuss.  
 
 
-NEISS:
+# NEISS:
 * https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
 * https://www.cpsc.gov/cgibin/NEISSQuery/WebEstimates.html
 * https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
@@ -54,9 +54,8 @@ User Selected On: Date Range from 01/01/2019 to 12/31/2019; Ages in Years: 16 ye
 
 
 
-
-This R package called `NEISS` only goes up to 2017 for data so I did not use it.  Cool idea though.  
 ```r
+# This R package called `NEISS` only goes up to 2017 for data so I did not use it.  Cool idea though.  
 # install.packages("devtools")
 devtools::install_github("hadley/neiss", force = TRUE)
 library(neiss)
@@ -74,7 +73,15 @@ write.csv(injuries1, "~/Dropbox/injuries_NEISS.csv")
 ```
 
 ## Results
-Over the 10‐year period from 2010 to 2020, there were an estimated 540,860 ED visits for retained foreign body, and 27,580 (2,758 * 10) (5.1%) ED visits were related to female pelvic injuries as estimated using our sample size of 436 patients. Of the 436 visits for foreign body in the female pelvis that were analyzed, 570 (92.8%) visits involved patients who were discharged after ED treatment or examination. Twenty‐nine (4.7%) patients were admitted to the hospital; 1.0% were transferred to another facility; 1.0% left the ED against medical advice; and 0.4% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of injuries by anatomic site, a plurality of visits (34.2%) was due to injuries to the nose. The face (excluding nose) and ears were the next most common sites of injury (Fig. 3). Patients with nose‐related injuries were younger (median: 3 years of age; interquartile range: 3–4 years) than individuals presenting for injuries in other anatomic sites (P < 0.0001) (Fig. 3). The vast majority of primary diagnoses in the nose and ear were “foreign bodies” (97.1% and 93.0%, respectively)— significantly higher proportions than the incidence of foreign bodies in the other anatomic sites assessed in our analysis (P values both <0.0005) (Fig. 3). Diagnoses differed by anatomic site; for example, two‐thirds of mouth injuries were related to burns, whereas the most common injuries in the face (excluding the nose) and head were lacerations (Fig. 3). Among patients sustaining head lacerations, assault (patients either directly struck by battery or had battery thrown at them) and having a battery fall on their head were the most frequent mechanisms of injury (48.5% and 22.9%, respectively). Among facial lacerations, assault and being struck by falling batteries were also the most common mechanisms of injury (21.2% and 19.2%, respectively).
+Over the 10‐year period from 2010 to 2019, there were an estimated 540,860 ED visits for retained foreign body, and 27,580 (2,758 * 10) (5.1%) ED visits were related to female pelvic injuries as estimated using our sample size of 436 patients. Incidence of ED visits gradually increased during this time period (Fig. 1).  While the majority of pelvic foreign body cases were treated and released from the hospital, 7.2% were admitted. Twenty‐nine (4.7%) patients were admitted to the hospital; 1.0% were transferred to another facility; 1.0% left the ED against medical advice; and 0.4% were held for observation. Patients with rectal foreign bodies were taken to the operating room at a significantly higher rate compared to those with vaginal foreign bodies (p<0.05).  Overall (Fig. 2) incidence of injury and anatomic site‐specific incidence of injury fluctuated during the time period studied. Upon analysis of injuries by anatomic site, a majority of visits (72%) was due to injuries to the vagina. The majority of injuries occurred at home.  
+
+A majoirty of patients had a vibrator or massage device as a foreign body (figure 3), with an even split between vaginal and rectal injuries.  The most common vibrators were penis rings or a piece of the vibrator (e.g. cover, tip, battery) broke off inside the patient.  Many of the vibrators were lost during sexual activity and were unable to be retrieved by the patient despite using tongs, flatware, and screwdrivers causing lacerations.  Jewelry was classified as a foreign body when infected vaginal piercings were removed for abscess drainage.  Drugs were commonly confiscated from the vagina following an arrest. The caps of writing instruments, perfume, hairspray, enema instruments, and toothpaste were parts that became foreign bodies. Lastly, paper was placed inside the vagina for the very young and patients identified with mental illness.  
+
+
+## Results from Rmarkdown, code for manuscript.Rmd
+Over the 10‐year period from 2010 to 2020, there were an estimated 540,860 ED visits for retained foreign body, and 27,580 (5.1%) ED visits were related to female pelvic injuries as estimated using our sample size of 167 patients. The typical patient with a retained bladder, rectal, or vaginal foreign body was a 33(IQR: 14 - 52)) year-old Whitefemale who stated that they were not using drugs or alcohol during the placement of the foreign body. The most common foreign body of the 222 types of foreign body found in the vagina and rectum was massage devices or vibrators, followed by abrasive cleaners and air conditioners. Many of the vibrators were lost during sexual activity. Jewelry mainly consisted of infected vaginal piercings that were removed for abscess drainage. Drugs were commonly confiscated from the vagina following an arrest. The caps of writing instruments, perfume, hairspray, enema instruments, and toothpaste were parts that became foreign bodies. Most injuries presented to the ED on a Saturday during the spring months, and approximately 3.6% of foreign body cases presented on a federal holiday.
+
+Of the 167 visits for foreign body in the female pelvis that were analyzed, (71.9%) visits involved patients who were admitted to the hospital; 21.9% left the ED against medical advice; and 3.1% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of foreign body by anatomic site, a majority of visits (52.1%) was due to injuries to the vagina. A plurality of vaginal foreign body patients had a vibrator as a vaginal foreign body specifically vibrating eggs, batteries that fell out of a vibrator, and penis rings. The rectum was the least common sites of injury (Fig. 3). Patients with a rectal foreign body were mainly anal plugs, vibrators confirmed by x-rays, and beads.
 
 
 Other ideas:
