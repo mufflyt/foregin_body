@@ -7,7 +7,7 @@ To estimate nationwide incidence of emergency department (ED) visits for pelvic 
 * I think that I could do the materials and methods plus results if you guys do the intro and discussion.  To discuss.  
 
 
-NEISS:
+# NEISS:
 * https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data
 * https://www.cpsc.gov/cgibin/NEISSQuery/WebEstimates.html
 * https://www.cpsc.gov/cgibin/NEISSQuery/home.aspx
@@ -16,6 +16,8 @@ NEISS:
 
 ## Materials and Methods
 There is an R package to access data from the National Electronic Injury Surveillance System (NEISS) (http://www.cpsc.gov/en/Research–Statistics/NEISS‐Injury‐Data/).  The National Electronic Injury Surveillance System (NEISS) was accessed from the Consumer Product Safety Commission's Web site and used for the collection of data. This resource has proven invaluable in myriad prior analyses evaluating nationwide trends occurring in emergency medicine.4-7 Briefly, this database collects data from 100 participating hospital EDs, which is used to derive a stratified probability sample of visits to the approximately 5,000 EDs nationwide that have at least six beds and are open 24 hours a day, 7 days a week.8-10 From these figures, the NEISS creates annual estimates of each type of injury.9 This resource allows one to search for injuries organized by several general diagnoses, specific consumer products, and patient demographics. Additionally, a one‐ to two‐phrase narrative that describes other aspects of the patient visit is included for many cases.
+
+![Patient Flow.](https://github.com/mufflyt/foreign_body/blob/master/patient_flow3.jpeg)
 
 ```r
 NEISS Query Results
@@ -54,9 +56,8 @@ User Selected On: Date Range from 01/01/2019 to 12/31/2019; Ages in Years: 16 ye
 
 
 
-
-This R package called `NEISS` only goes up to 2017 for data so I did not use it.  Cool idea though.  
 ```r
+# This R package called `NEISS` only goes up to 2017 for data so I did not use it.  Cool idea though.  
 # install.packages("devtools")
 devtools::install_github("hadley/neiss", force = TRUE)
 library(neiss)
@@ -73,9 +74,18 @@ write.csv(products, "~/Dropbox/products_NEISS.csv")
 write.csv(injuries1, "~/Dropbox/injuries_NEISS.csv")
 ```
 
-## Results
-Over the 10‐year period from 2010 to 2020, there were an estimated 540,860 ED visits for retained foreign body, and 27,580 (2,758 * 10) (5.1%) ED visits were related to female pelvic injuries as estimated using our sample size of 436 patients. Of the 436 visits for foreign body in the female pelvis that were analyzed, 570 (92.8%) visits involved patients who were discharged after ED treatment or examination. Twenty‐nine (4.7%) patients were admitted to the hospital; 1.0% were transferred to another facility; 1.0% left the ED against medical advice; and 0.4% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of injuries by anatomic site, a plurality of visits (34.2%) was due to injuries to the nose. The face (excluding nose) and ears were the next most common sites of injury (Fig. 3). Patients with nose‐related injuries were younger (median: 3 years of age; interquartile range: 3–4 years) than individuals presenting for injuries in other anatomic sites (P < 0.0001) (Fig. 3). The vast majority of primary diagnoses in the nose and ear were “foreign bodies” (97.1% and 93.0%, respectively)— significantly higher proportions than the incidence of foreign bodies in the other anatomic sites assessed in our analysis (P values both <0.0005) (Fig. 3). Diagnoses differed by anatomic site; for example, two‐thirds of mouth injuries were related to burns, whereas the most common injuries in the face (excluding the nose) and head were lacerations (Fig. 3). Among patients sustaining head lacerations, assault (patients either directly struck by battery or had battery thrown at them) and having a battery fall on their head were the most frequent mechanisms of injury (48.5% and 22.9%, respectively). Among facial lacerations, assault and being struck by falling batteries were also the most common mechanisms of injury (21.2% and 19.2%, respectively).
+## Results from Rmarkdown, code for manuscript.Rmd
+Over the 10‐year period from January, 06 2010 to December, 25 2019, there were an estimated 540,860 ED visits for retained foreign body, and 27,580 (5.1%) ED visits were related to female pelvic injuries as estimated using our sample size of 436 patients. The typical patient with a retained bladder, rectal, or vaginal foreign body was a 31year-old (IQR: 12 - 50)) White female who stated that they were not using drugs or alcohol during the placement of the foreign body. The most common foreign body of the 222 types of foreign body found in the vagina and rectum was massage devices or vibrators, followed by paper products and jewelry. The most common vibrators were penis rings or a piece of the vibrator (e.g. cover, tip, battery) broke off inside the patient.  Many of the vibrators were lost during sexual activity and were unable to be retrieved by the patient despite using tongs, flatware, and screwdrivers causing further self-injury. Jewelry mainly consisted of infected vaginal piercings that were removed for abscess drainage. Drugs were commonly confiscated from the vagina following an arrest. The third most common retained foreign body was paper was placed inside the vagina for the very young and patients identified with mental illness.  The caps of writing instruments, perfume, hairspray, enema instruments, and toothpaste were parts that became foreign bodies. Most injuries presented to the ED on a Friday during the summer months, and approximately 2.5% of foreign body cases presented on a federal holiday.
 
+Of the 436 visits for foreign body in the female pelvis that were analyzed, (63.5%) visits involved patients who were admitted to the hospital; 20.6% left the ED against medical advice; and 6.3% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of foreign body by anatomic site, a majority of visits (72.7%) was due to injuries to the vagina. A plurality of vaginal foreign body patients had a vibrator as a vaginal foreign body specifically vibrating eggs, batteries that fell out of a vibrator, and penis rings. The rectum was the least common sites of injury (Fig. 3). Patients with a rectal foreign body were mainly anal plugs, vibrators confirmed by x-rays, and beads. No patient presented with both a rectal and vaginal foreign body present at the same time.
+
+
+```r
+Over the 10‐year period from `r format(min(df$Treatment_Date), format="%B %d %Y")` to `r format(max(df$Treatment_Date), format="%B %d %Y")`, there were an estimated `r formatC(nationalestimate, format = "d", big.mark=",")` ED visits for retained foreign body, and `r formatC(femaleforeignbodyfordecade, format = "d", big.mark = ",")` (`r percentagefemalepelvicforeignbody`%) ED visits were related to female pelvic injuries as estimated using our sample size of `r nrow(df)` patients. The typical patient with a retained bladder, rectal, or vaginal foreign body was a `r median(df$Age)`year-old (IQR: `r median(df$Age, na.rm=TRUE)-IQR(df$Age, na.rm=TRUE)` - `r IQR(df$Age, na.rm=TRUE)+median(df$Age, na.rm=TRUE)`))  `r names(which.max(table(df$Race)))` female who stated that they were not using drugs or alcohol during the placement of the foreign body.  The most common foreign body of the `r english::as.english(nlevels(df$products_description1))` types of foreign body found in the vagina and rectum was `r tolower(names(which.max(table(df$products_description1))))`, followed by `r tolower(names(summary(as.factor(df$products_description1))))[[2]]` and `r tolower(names(summary(as.factor(df$products_description1))))[[3]]`. Many of the vibrators were lost during sexual activity.  Jewelry mainly consisted of infected vaginal piercings that were removed for abscess drainage.  Drugs were commonly confiscated from the vagina following an arrest. The caps of writing instruments, perfume, hairspray, enema instruments, and toothpaste were parts that became foreign bodies.  Most injuries presented to the ED on a `r names(which.max(table(df$Treatment_Date_wday)))` during the `r tolower(names(which.max(table(df$Treatment_Date_month))))` months, and approximately `r round(tab4[2], 1)`% of foreign body cases presented on a federal holiday.  
+
+Of the `r nrow(df)` visits for foreign body in the female pelvis that were analyzed, 
+(`r round(tab1[[4]],1)`%) visits involved patients who were admitted to the hospital; `r round(tab1[[3]],1)`% left the ED against medical advice; and `r round(tab1[[2]],1)`% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of foreign body by anatomic site, a majority of visits (`r round(tab2[[2]],1)`%) was due to injuries to the `r names(which.max(table(df$Anatomy_injured)))`. A plurality of vaginal foreign body patients had a vibrator as a vaginal foreign body specifically vibrating eggs, batteries that fell out of a vibrator, and penis rings.   The `r names(which.min(table(df$Anatomy_injured)))` was the least common sites of injury (Fig. 3).  Patients with a rectal foreign body were mainly anal plugs, vibrators confirmed by x-rays, and beads.  No patient presented with both a rectal and vaginal foreign body present at the same time.  Patients with vaginal foreign body were significantly younger than those with rectal injury (`r tab5[[1,2]]` vs `r tab5[[2,2]]`, . 
+```
 
 Other ideas:
 
