@@ -30,8 +30,7 @@ Over the 10‐year period from January, 06 2010 to December, 25 2019, there were
 Of the 436 visits for foreign body in the female pelvis that were analyzed, (63.5%) visits involved patients who were admitted to the hospital; 20.6% left the ED against medical advice; and 6.3% were held for observation. Overall (Fig. 1) incidence of injury and anatomic site‐specific (Fig. 2) incidence of injury fluctuated during the time period studied. Upon analysis of foreign body by anatomic site, a majority of visits (72.7%) was due to injuries to the vagina. A plurality of vaginal foreign body patients had a vibrator as a vaginal foreign body specifically vibrating eggs, batteries that fell out of a vibrator, and penis rings. The rectum was the least common sites of injury (Fig. 3). Patients with a rectal foreign body were mainly anal plugs, vibrators confirmed by x-rays, and beads. No patient presented with both a rectal and vaginal foreign body present at the same time.
 
 ![Pelvic Foreign Body by Year.](https://github.com/mufflyt/foreign_body/blob/master/Year_of_injury%20.png)
-![Patient Flow.](https://github.com/mufflyt/foreign_body/blob/master/patient_flow3.jpeg)
-![Patient Flow.](https://github.com/mufflyt/foreign_body/blob/master/patient_flow3.jpeg)
+![Products as Pelvic Foreign Bodies.](https://github.com/mufflyt/foreign_body/blob/master/products_description2%20.png)
 
 ```r
 NEISS Query Results
