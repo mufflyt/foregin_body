@@ -1,5 +1,5 @@
 # foreign_body
-Franks, Khalighi, Muffly
+Khalighi, Franks, Muffly
 
 ## What got where?:  A Population-Based Analysis of Pelvic Foreign Bodies in Women
 To estimate nationwide incidence of emergency department (ED) visits for pelvic foreign body occurring in the bladder, vagina and rectum, and analyze demographic and anatomic‐specific trends.
