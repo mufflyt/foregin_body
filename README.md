@@ -34,6 +34,16 @@ Of the 436 visits for foreign body in the female pelvis that were analyzed, (63.
 ![Pelvic Foreign Body by Year.](https://github.com/mufflyt/foreign_body/blob/master/Year_of_injury%20.png)
 ![Products as Pelvic Foreign Bodies.](https://github.com/mufflyt/foreign_body/blob/master/products_description2%20.png)
 
+# Discussion
+To the best of our knowledge, this is the first analysis delineating the composition of pelvic foreign bodies with which WOMEN present to the ED. 
+
+In analyzing and documenting trends organized by specific products and patient characteristics, it is our hope that this information can be valuable as an adjunct for conducting a comprehensive patient history and clinical examination.  In addition to risks such as pelvic infection and sequelae such as hematocolpos, obstipation, and perforation, certain products may pose other significant dangers. For example, leakage of alkaline contents from battery-powered massager foreign bodies can cause necrosis of surrounding tissues, whereas screws, and writing instruments all be sharp and cause considerable bleeding. For
+more benign and inert items where removal may not be as urgent, referral to a gynecologists in an outpatient or controlled setting such as an operating room may be ideal. 
+
+These findings can potentially be used for developing female pelvic foreign body simulations used for educational purposes.  While this analysis’s unique value also lies in its comparisons of foreign bodies among various age demographics, there are several limitations on which the authors wish to comment.  Although comprising the vast majority of functioning EDs, this analysis indicates little about patients presenting to other venues, including urgent care centers and outpatient clinics. Consequently, although a sizeable national estimate of nearly ?00,000 ED visits over ten years for pelvic foreign bodies is reported, this is likely an underestimate of the true national incidence.  Hence, conclusions regarding the composition of patient demographics and specific foreign bodies may be limited to patients who present to the ED. Furthermore, as this analysis is restricted to consumer products, foreign bodies involving other items, including organic materials, are not reflected. For example, there is no comment on food as a pelvic foreign body, and this certainly may be a common occurrence. Therefore, it is likely that ED visits for pelvic foreign bodies may be more frequent overall than we estimate, and we would like to stress that conclusions from this analysis are focused on consumer products.
+
+
+
 ```r
 NEISS Query Results
 
