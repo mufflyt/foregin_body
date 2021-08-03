@@ -161,3 +161,105 @@ Prior to 2019, each NEISS record allowed a maximum of one diagnosis, one body pa
 User Selected On: Year 2019; Product Selection: PERSONAL USE ITEMS: CIGARETTES, ETC., LIGHTERS, FUEL, CLOTHING, ALL, DRUG POISONINGS TO CHILDREN UNDER 5, GROOMING DEVICES, HOLDERS FOR PERSONAL ITEMS, INFRARED LAMPS, SAUNAS, MASSAGE DEVICES, MISC. PERSONAL USE ITEMS, PROTECTION DEVICES, RAZORS, SHAVERS, RAZOR BLADES; Gender: Female (2); Body Part Selection: Pubic Region (38);
 ```
 Search SEER database for Bartholin's gland cancer.  
+
+
+# Review from one journal.  Que brutal.  
+Ms. Ref. No.:  JEMD-D-21-00294
+Title: What Got Where? A Population-Based Analysis of Pelvic Foreign Bodies in Women
+Journal of Emergency Medicine
+
+Dear Dr. Khalighi,
+
+Thank you for submitting your manuscript entitled
+"What Got Where? A Population-Based Analysis of Pelvic Foreign Bodies in Women".  I regret that the editors have decided not to accept your manuscript for publication in the
+Journal of Emergency Medicine.
+
+Again, thank you for submitting your manuscript to
+Journal of Emergency Medicine for consideration.  I am sorry that we will be unable to meet your publishing request.
+
+Yours sincerely,
+
+Dr. Robert Rodriguez
+Senior Associate Editor
+Journal of Emergency Medicine
+
+Follow us on Twitter at @JEM_Journal
+
+Editors' comments:
+
+Although we applaud your efforts at addressing an important topic, we can not accept your manuscript for publication. Our primary concerns relate to the overall imprecision of the results section with important data that is excluded. For example, tampons do appear to be included in NEISS. These would appear to be important data to include.
+
+We have included the comments from the reviewers below for your benefit in trying to improve the manuscript.
+
+Reviewer #2: Thank you for submitting this article. 
+Line 5- please cite case reports referred to.  Unsure of what injury may be.
+Line 51- numerous case reports listed (1/2/3/5/7/14)
+        Ref 1 is scooter study and does not seem to address any relevant cases
+Line 53- I would suggest if speaking to emergency medicine audience, then the emergentologist would be making the diagnosis rather than the gynecologist. 
+Line 58- the study referenced appears to look at both males and females.  Also, would put this reference immediately after this sentence rather than after the third sentence.
+Line 67- why look at genitourinary plus rectal versus only genitourinary?  Also, why only women?
+Line 96- NEISS has been around for over 45 years.  Where is the 1992 coming from?
+Line 101- If this website is being used to reference data, it should be in the reference section.  Further, the facts and numbers stated are not mentioned in the source document.  It also currently is gathering data from Puerto Rico, which is not part of the contiguous US.
+Line 137- Over 20 years and the dates mentioned is redundant; recommend stating just the date range.
+Line 140- The 22.7 years is valuable but the range indicates something else may be going on.  Would recommend looking at data again to look for possible other explanations.  Is there a bimodal distribution, such as more common in young and middle age?
+Line 144- Please explain the case narrative
+Line 150- Good that you broke down the third most common FB by age, but was age available for the vibrator and for paper products?
+Line 151- bottles are listed as foreign body in text but no mention of bottles is made in figure referenced
+Line 155- noted that the dates listed of 2000 to 2020 do not show a more than doubling.  Text does not match the figure referenced
+Line 181- if noting patient demographics, anatomic locations, and types of foreign bodies, would recommend having some chart to show the data.  Figures only show type and total annual number.
+Line 190- appreciate the reference to a prior study noting complication of necrosis from battery leakage; is there anything else you garnered from your research that can be considered original or novel?  The discussion would be the chance for your paper to truly stand out.
+Line 193- Would you refer to a gynecologist for a rectal foreign body?  Again, this goes to the question of why look at genitourinary and rectal?  Or why only females?
+Line 198- is the data from 2020?  The range mentions through Dec 25, 2019.
+Line 203- The NEISS actually mentions outcome in sense of discharge versus admission.  This actually would be quite interesting to include.
+Line 208- The NEISS actually includes tampons and I would imagine also condoms as it is a consumer product.  In line 115, it is indicated that medical devices are not included.  The retained pessary actually would be relevant in this scenario and if not included, would be a notable limitation.
+
+
+
+Reviewer #3: Thank you for the opportunity to review the paper entitled, "What Got Where?  A Population-Based Analysis of Pelvic Foreign Bodies in Women."
+
+Comments:
+
+Overview and general recommendation:
+The authors explore an area of significant interest to the emergency medicine community.  Understanding the incidence of pelvic foreign bodies and, more specifically, what those foreign bodies are most likely to be, may be of interest to the community to risk stratify patients.  However, this article as written does little to answer those questions.  The results are extremely vague and use words such as "many" and "most" without an appropriate amount of data, such as numbers and percentages, used.  The reader is left wondering why "urethra" was not a keyword that was searched in the database, as other studies that are referenced did explore this site.  I would not recommend this article for publication without some moderate improvements to the results and data presented.  The "typical" patient is described without including percentages of demographics.  The tables are difficult to understand, as the dependent variable, "Sample Case Volume" for Figure 1, is poorly defined.
+No clarifying information is given in the text. 
+
+Specific major and minor comments:
+
+ABSTRACT:
+Objective:
+The reader will wonder why "urethra" was not a search term.
+
+Methods:
+It seems as if R was used to create the graphs in the figures, but no other data analysis is described.  Please describe how data was analyzed through the r-project program.
+The last sentence is very vague, and "factors associated with site specific pelvic foreign bodies" are not specifically addressed in the text.
+
+Results:
+There is a quick jump from 2.2 million ED visits for "foreign bodies" to most common "pelvic foreign bodies" in the next sentence.  Please denote here how many of these 2.2 million are pelvic here.
+
+Conclusion:
+Line 23: Use of the word "hope" does not instill confidence in the reader.  Consider removing "we hope that" and simply state that "this information will be…"
+
+INTRODUCTION:
+Lines 47-48:  This is the most pertinent sentence in the article that enforces why this study is important.  Recommend using this earlier in the abstract to help obtain the reader's attention.
+
+MATERIALS AND METHODS:
+Lines 122-127:  These two sentences describe a great portion of the results.  Materials and Methods should allow the reader to understand how the study was performed in a way that it could be reproduced.  This is a very vague explanation.
+
+Lines 129-130:  Please specify what statistical analysis was performed. 
+
+RESULTS:
+Lines 139-142:  This sentence describes the "typical" patient with a pelvic foreign body.  This is way too vague.  At least give numbers and percentages of demographics mentioned here (race/ethnicity, alcohol use or not). 
+
+Line 142:  What are the "142 types" of foreign bodies?  The Materials and Methods states that 121 visits in the database were for pelvic foreign bodies, while the earlier portion of Results mentions the extrapolated number of 77,580.  It is unclear where 142 came from.
+
+Line 146:  Again, "many of the vibrators" is vague, please use numbers and/or percentages.
+
+Lines 150-152:  Again, very vague.  Consider using tables to better display your data.
+
+Line 161:  Again, "most patients…" is very vague.  Please denote specifically how many patients attempted removal at home prior to presentation.
+
+Lines 163-164:  How common were these complaints?  Did they correlate to what the object was?
+
+DISCUSSION:
+
+LINE 186:  "Presenting complaints are likely different depending on the retained foreign body…"  Are they?  Did your data find anything about this?
